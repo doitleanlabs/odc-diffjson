@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net8.0": {
       "JsonDiffPatch.Net/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -41,7 +41,7 @@
         }
       }
     },
-    "net6.0/linux-x64": {
+    "net8.0/linux-x64": {
       "JsonDiffPatch.Net/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -147,38 +147,38 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net8.0": [
       "JsonDiffPatch.Net >= 2.3.0",
       "Newtonsoft.Json >= 13.0.3",
       "OutSystems.ExternalLibraries.SDK >= 1.3.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fabio.fantato.DOITLEAN\\.nuget\\packages\\": {}
+    "C:\\Users\\fabio.fantato\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabio.fantato.DOITLEAN\\Source\\Repos\\odc-diffjson-o\\DoiTLean.DiffJSON\\DoiTLean.DiffJSON.csproj",
+      "projectUniqueName": "C:\\Repo\\odc-diffjson\\DoiTLean.DiffJSON\\DoiTLean.DiffJSON.csproj",
       "projectName": "DoiTLean.DiffJSON",
-      "projectPath": "C:\\Users\\fabio.fantato.DOITLEAN\\Source\\Repos\\odc-diffjson-o\\DoiTLean.DiffJSON\\DoiTLean.DiffJSON.csproj",
-      "packagesPath": "C:\\Users\\fabio.fantato.DOITLEAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabio.fantato.DOITLEAN\\Source\\Repos\\odc-diffjson-o\\DoiTLean.DiffJSON\\obj\\",
+      "projectPath": "C:\\Repo\\odc-diffjson\\DoiTLean.DiffJSON\\DoiTLean.DiffJSON.csproj",
+      "packagesPath": "C:\\Users\\fabio.fantato\\.nuget\\packages\\",
+      "outputPath": "C:\\Repo\\odc-diffjson\\DoiTLean.DiffJSON\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fabio.fantato.DOITLEAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fabio.fantato\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -186,11 +186,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "JsonDiffPatch.Net": {
             "target": "Package",
@@ -221,7 +226,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

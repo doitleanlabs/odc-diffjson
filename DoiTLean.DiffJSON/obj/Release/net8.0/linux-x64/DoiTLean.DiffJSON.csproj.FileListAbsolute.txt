@@ -1,0 +1,13 @@
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\bin\Release\net8.0\linux-x64\DoiTLean.DiffJSON.deps.json
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\bin\Release\net8.0\linux-x64\DoiTLean.DiffJSON.dll
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\bin\Release\net8.0\linux-x64\DoiTLean.DiffJSON.pdb
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\DoiTLean.DiffJSON.csproj.AssemblyReference.cache
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\DoiTLean.DiffJSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\DoiTLean.DiffJSON.AssemblyInfoInputs.cache
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\DoiTLean.DiffJSON.AssemblyInfo.cs
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\DoiTLean.DiffJSON.csproj.CoreCompileInputs.cache
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\DoiTLean.DiffJSON.sourcelink.json
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\DoiTLean.DiffJSON.dll
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\refint\DoiTLean.DiffJSON.dll
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\DoiTLean.DiffJSON.pdb
+C:\Repo\odc-diffjson\DoiTLean.DiffJSON\obj\Release\net8.0\linux-x64\ref\DoiTLean.DiffJSON.dll
