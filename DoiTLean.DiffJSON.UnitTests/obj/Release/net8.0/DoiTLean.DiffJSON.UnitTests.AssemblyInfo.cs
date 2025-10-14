@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoiTLean.DiffJSON.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a229982b9e3c9f1aa1dc1e04a90f0f5461503645")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b070afa7c21fadaf24c1acb7997f8c153620ac83")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoiTLean.DiffJSON.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoiTLean.DiffJSON.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

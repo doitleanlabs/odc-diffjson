@@ -7,9 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="JsonDiffPatch.Net" Version="2.3.0" />
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-        <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.3.2" />
+        <PackageReference Include="JsonDiffPatch.Net" Version="2.5.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+        <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.5.0" />
     </ItemGroup>
 
     <ItemGroup>

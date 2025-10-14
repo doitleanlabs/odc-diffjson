@@ -142,15 +142,15 @@
           "dependencies": {
             "JsonDiffPatch.Net": {
               "target": "Package",
-              "version": "[2.3.0, )"
+              "version": "[2.5.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[13.0.4, )"
             },
             "OutSystems.ExternalLibraries.SDK": {
               "target": "Package",
-              "version": "[1.3.2, )"
+              "version": "[1.5.0, )"
             }
           },
           "imports": [
