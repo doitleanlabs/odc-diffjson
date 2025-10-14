@@ -31,6 +31,8 @@ namespace DoiTLean.DiffJSON {
 
             //LEFT
             JToken DiffLeft = jdp.Diff(right, left);
+            if (DiffLeft is null || DiffLeft.Type == JTokenType.Null)
+                return _resultList;
 
 
             foreach (JProperty x in left)

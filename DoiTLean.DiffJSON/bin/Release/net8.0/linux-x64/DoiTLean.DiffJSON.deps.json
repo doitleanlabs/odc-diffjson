@@ -9,7 +9,7 @@
     ".NETCoreApp,Version=v8.0/linux-x64": {
       "DoiTLean.DiffJSON/1.0.0": {
         "dependencies": {
-          "JsonDiffPatch.Net": "2.5.0",
+          "JsonDiffPatch.Net": "2.3.0",
           "Newtonsoft.Json": "13.0.4",
           "OutSystems.ExternalLibraries.SDK": "1.5.0"
         },
@@ -17,14 +17,14 @@
           "DoiTLean.DiffJSON.dll": {}
         }
       },
-      "JsonDiffPatch.Net/2.5.0": {
+      "JsonDiffPatch.Net/2.3.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.4"
         },
         "runtime": {
           "lib/netstandard2.0/JsonDiffPatchDotNet.dll": {
-            "assemblyVersion": "2.5.0.0",
-            "fileVersion": "2.5.0.0"
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
           }
         }
       },
@@ -52,12 +52,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "JsonDiffPatch.Net/2.5.0": {
+    "JsonDiffPatch.Net/2.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Hp1b5+DAQby54qPljfKRfpLTHn9c5hUxYfcmmtEJTlzD7lEkFQIwrUnjaNR99RV63nB+pJwDNBbL2kCMIiWc1g==",
-      "path": "jsondiffpatch.net/2.5.0",
-      "hashPath": "jsondiffpatch.net.2.5.0.nupkg.sha512"
+      "sha512": "sha512-a+I1WNXSwkelsgUfMk3LVRY3FzQDV8nCpRMcml2whQDimbnOG+mxRCt6kCzMRFwshg9ir4shm0yvYDL7E89ayg==",
+      "path": "jsondiffpatch.net/2.3.0",
+      "hashPath": "jsondiffpatch.net.2.3.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.4": {
       "type": "package",

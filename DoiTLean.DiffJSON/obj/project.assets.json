@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "JsonDiffPatch.Net/2.5.0": {
+      "JsonDiffPatch.Net/2.3.0": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.2"
+          "Newtonsoft.Json": "11.0.1"
         },
         "compile": {
           "lib/netstandard2.0/JsonDiffPatchDotNet.dll": {}
@@ -42,10 +42,10 @@
       }
     },
     "net8.0/linux-x64": {
-      "JsonDiffPatch.Net/2.5.0": {
+      "JsonDiffPatch.Net/2.3.0": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.2"
+          "Newtonsoft.Json": "11.0.1"
         },
         "compile": {
           "lib/netstandard2.0/JsonDiffPatchDotNet.dll": {}
@@ -83,16 +83,16 @@
     }
   },
   "libraries": {
-    "JsonDiffPatch.Net/2.5.0": {
-      "sha512": "Hp1b5+DAQby54qPljfKRfpLTHn9c5hUxYfcmmtEJTlzD7lEkFQIwrUnjaNR99RV63nB+pJwDNBbL2kCMIiWc1g==",
+    "JsonDiffPatch.Net/2.3.0": {
+      "sha512": "a+I1WNXSwkelsgUfMk3LVRY3FzQDV8nCpRMcml2whQDimbnOG+mxRCt6kCzMRFwshg9ir4shm0yvYDL7E89ayg==",
       "type": "package",
-      "path": "jsondiffpatch.net/2.5.0",
+      "path": "jsondiffpatch.net/2.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "jsondiffpatch.net.2.5.0.nupkg.sha512",
+        "jsondiffpatch.net.2.3.0.nupkg.sha512",
         "jsondiffpatch.net.nuspec",
-        "lib/net452/JsonDiffPatchDotNet.dll",
+        "lib/net45/JsonDiffPatchDotNet.dll",
         "lib/netstandard1.0/JsonDiffPatchDotNet.dll",
         "lib/netstandard1.3/JsonDiffPatchDotNet.dll",
         "lib/netstandard2.0/JsonDiffPatchDotNet.dll"
@@ -150,7 +150,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "JsonDiffPatch.Net >= 2.5.0",
+      "JsonDiffPatch.Net >= 2.3.0",
       "Newtonsoft.Json >= 13.0.4",
       "OutSystems.ExternalLibraries.SDK >= 1.5.0"
     ]
@@ -201,7 +201,7 @@
         "dependencies": {
           "JsonDiffPatch.Net": {
             "target": "Package",
-            "version": "[2.5.0, )"
+            "version": "[2.3.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
