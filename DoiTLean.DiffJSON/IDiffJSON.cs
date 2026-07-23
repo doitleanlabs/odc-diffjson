@@ -21,6 +21,21 @@ namespace DoiTLean.DiffJSON
 
 
         /// <summary>
+        /// Same purpose as Diff, but walks nested objects recursively and reports each changed
+        /// leaf attribute on its own, using a dot-separated path as Attribute (e.g. "Meta.City")
+        /// instead of a single "whole parent object changed" entry. Use this when nested objects
+        /// need attribute-level granularity; use Diff when a nested change should be reported as
+        /// "this whole object changed". Changed arrays are still reported as a whole either way.
+        /// </summary>
+        [OSAction(Description = "Parses Left and Right JSON to find differences, recursing into nested objects and reporting each changed attribute individually with a dot-separated path (e.g. Meta.City).", IconResourceName = "DoiTLean.DiffJSON.resources.diff.png", ReturnName = "DiffList")]
+        List<Structures.JSONPair> DiffDeep(
+            [OSParameter(DataType = OSDataType.Text, Description = "LeftJSON")]
+            string LeftJSON,
+            [OSParameter(DataType = OSDataType.Text, Description = "RightJSON")]
+            string RightJSON);
+
+
+        /// <summary>
         /// Replaces an object identified by Path with a list of name/value pairs.
         /// 
         /// This is helpful to pre-process JSON with &quot;dynamic&quot; property names to something that can be translated into the OutSystems Platform types
