@@ -28,14 +28,29 @@ namespace DoiTLean.DiffJSON.Structures
         /// </summary>
         public string NewValue;
 
+        [OSStructureField(DataType = OSDataType.Boolean, Description = "True if the attribute existed in the left json. False means the attribute was added by the right json, and PreviousValue is empty because the attribute never had a value, not because its value was an empty string.", IsMandatory = false)]
         /// <summary>
-        /// Constructs an JSONPair struct.
+        /// True if the attribute existed in the left json.
         /// </summary>
-        public JSONPair(string inputAttribute,string inputLeftValue,string inputRightValue) : this()
+        public bool HasPreviousValue;
+
+        [OSStructureField(DataType = OSDataType.Boolean, Description = "True if the attribute exists in the right json. False means the attribute was removed, and NewValue is empty because the attribute has no value, not because its value was set to an empty string.", IsMandatory = false)]
+        /// <summary>
+        /// True if the attribute exists in the right json.
+        /// </summary>
+        public bool HasNewValue;
+
+        /// <summary>
+        /// Constructs a JSONPair struct. hasPreviousValue/hasNewValue default to true for callers
+        /// that already know both sides had a value (e.g. hand-built pairs, existing test code).
+        /// </summary>
+        public JSONPair(string inputAttribute, string inputLeftValue, string inputRightValue, bool hasPreviousValue = true, bool hasNewValue = true) : this()
         {
             Attribute = inputAttribute ?? string.Empty;
             PreviousValue = inputLeftValue ?? string.Empty;
             NewValue = inputRightValue ?? string.Empty;
+            HasPreviousValue = hasPreviousValue;
+            HasNewValue = hasNewValue;
         }
     }
 
